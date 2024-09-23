@@ -5,7 +5,7 @@
  - Data acquisition from 1 healthy subject at two field strenghts
  - scanners: MAGNETOM Prisma (3T) and Terra.X (7T)
  - conventional Spin-Lock pulse train preparation (10 pulses, DC = 50%, tp = 100 ms, td = 100 ms)
- - B1 levels: 0.6, 0.9, 1.5, 2, 2.7, 4 µT
+ - B1 levels: 0.3, 0.6, 0.9, 1.5, 2, 2.7, 4 µT
  - offsets: between -100 and 100 ppm, while a finer sampling between -6 and 6 ppm with a step of 0.25 ppm 
    for B1 < 4 µT
  - step width for B1 = 4 µT was 0.5 ppm which was later interpolated
