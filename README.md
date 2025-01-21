@@ -18,6 +18,13 @@
 
 ![Methods](../main/img/SL_train.jpg)
 
+## nii data at 3T and 7T
+
+ - Git contains nii files for each measured sequence at 3T and 7T
+ - The corresponding WASABI with B0 and B1 map is provided as mat file
+ - Mask for simultaneously homogenous B0 and B1 values as nii file
+ - segmentation of grey and white matter
+
 ## EXCEL file with MultiB0_B1 data
 Spin Lock Dataset for 3T and 7 T in grey and white matter
 
