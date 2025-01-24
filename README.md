@@ -9,21 +9,21 @@ Open MultiB0-MultiB1 CEST MRI dataset for comparing different quantification mod
  - **Pulse train preparation**: conventional Spin-Lock pulse train preparation (10 pulses, DC = 50%, tp = 100 ms, td = 100 ms)
  - **B1 levels**: 0.3, 0.6, 0.9, 1.5, 2, 2.7, 4 µT
  - **Offsets**:
-  - between -100 and 100 ppm
-  - finer sampling between -6 and 6 ppm with a step of 0.25 ppm 
+   - between -100 and 100 ppm
+   - finer sampling between -6 and 6 ppm with a step of 0.25 ppm 
    for B1 < 4 µT
-  - step width for B1 = 4 µT was 0.5 ppm which was later interpolated
+   - step width for B1 = 4 µT was 0.5 ppm which was later interpolated
  - **Image readout**: 3D snapshot-CEST GRE
  - **Mapping methods**:
-  - B1 and B0 maps measured using the WASABI method
-  - Co-registration and reslicing 7T data onto 3T data
+   - B1 and B0 maps measured using the WASABI method
+   - Co-registration and reslicing 7T data onto 3T data
  - **Homogeneity criteria**:
-  - simultaneously homogenous B0 and B1 values for region-of-interest
-  - Defined as:
-   - ± 5 % deviation from B1 map
-   -  ± 0.1 ppm deviation from B0 map
+   - simultaneously homogenous B0 and B1 values for region-of-interest
+   - Defined as:
+     - ± 5 % deviation from B1 map
+     -  ± 0.1 ppm deviation from B0 map
  -  **Regions of Interest (ROI)**:
-  - Grey and white matter regions within homogenous region
+   - Grey and white matter regions within homogenous region
 
 ![SL_train](https://github.com/user-attachments/assets/74c6e4e7-f222-46dd-b0d2-11a36618e1f1)
 
