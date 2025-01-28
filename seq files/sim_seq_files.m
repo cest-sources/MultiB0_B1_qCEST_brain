@@ -32,3 +32,11 @@ Z(:,2) = Mz(2:end);
 sim{1,ii} = seq_file;
 sim{2,ii} = Z;
 end
+%% Plot results of simulation
+
+figure;
+for ii=1:numel(seq_files)
+    plot(sim{2,ii}(:,1), sim{2,ii}(:,2),'-') , grid on
+    set(gca,'XDir','reverse'); xlabel('\Delta\omega [ppm]'); ylabel('Z(\Delta\omega)'); set(gca,'yLim',[0 1.1]); set(gca,'xLim',[-100 100])
+    hold on
+end
